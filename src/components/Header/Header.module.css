@@ -1,0 +1,11 @@
+.header {
+    color: white;
+    background-color: black;
+    margin: auto;
+    width: auto;
+    height: min-content;
+    border: 3px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
