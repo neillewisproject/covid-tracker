@@ -11,7 +11,7 @@ const httpRequestSuccess = (state, action) => {
         state.loading = false,
         state.confirmed = action.payload.confirmed,
         state.recovered = action.payload.recovered,
-        state.critical = action.payload.recovered,
+        state.critical = action.payload.critical,
         state.deaths = action.payload.deaths,
         state.httpRequestStatus = true
     )
